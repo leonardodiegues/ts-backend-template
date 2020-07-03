@@ -207,4 +207,22 @@ $RECYCLE.BIN/
 # .yarn/cache
 # .pnp.*
 
+
+# Manually added
+.cache/
+coverage/
+dist/*
+!dist/index.html
+node_modules/
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
 # End of https://www.toptal.com/developers/gitignore/api/node,yarn,visualstudiocode,macos,linux,windows
